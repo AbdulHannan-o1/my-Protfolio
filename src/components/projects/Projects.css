@@ -1,0 +1,164 @@
+#projects {
+    padding: 5px;
+    margin: 5%;
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    background-color: #3A3F51;
+
+}
+
+#projects h2 {
+    color: white;
+}
+
+.earth-project {
+    width: 400px;
+    height: 400px;
+    /* background: black; */
+    position: relative;
+    border-radius: 10px;
+    /* background-image: url("images/earth.jpeg"); */
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.bbc-project {
+    width: 400px;
+    height: 400px;
+    /* background:red; */
+    position: relative;
+    border-radius: 10px;
+    /* background-image: url("{proj.image}"); */
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.bbc-project.card {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(10, 10, 10, 0.9);
+  color: white;
+  padding: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  height: 60px; /* default: only project name is visible */
+}
+
+.text:hover {
+  height: 160px; /* expand to show rest */
+}
+
+.project-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #E0E0E0;
+  margin-bottom: 8px;
+}
+
+.content,
+.button {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.text:hover .content,
+.text:hover .button {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  color: #fff;
+  border: 2px solid #7f00ff;
+  background-color: transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #7f00ff, 0 0 20px #7f00ff50;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #7f00ff;
+  color: #000;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #7f00ff, 0 0 30px #7f00ff80;
+}
+
+
+.contact {
+    width: 100%;
+    height: auto;
+    padding: 75px 0 50px 0;
+    text-align: center;
+    background-color: rgba(3,3,3,45%);
+}
+.project-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+/* .button {
+  border: none;
+  background-color: #4A90E2;
+  color: white;
+  padding: 8px 16px;
+  margin-top: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #357ABD;
+} */
+
+.github-btn {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #7f00ff;
+  border-radius: 8px;
+  background-color: transparent;
+  box-shadow: 0 0 10px #7f00ff, 0 0 20px #7f00ff50;
+  transition: all 0.3s ease-in-out;
+}
+
+.github-btn:hover {
+  background-color: #7f00ff;
+  color: #000;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #7f00ff, 0 0 30px #7f00ff80;
+}
+

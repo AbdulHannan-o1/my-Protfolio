@@ -1,0 +1,66 @@
+/* Contact.css */
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.greeting {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #E0E0E0;
+}
+
+.subtext {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #E0E0E0;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.form-grid input,
+.form-grid textarea {
+  padding: 0.8rem;
+  border: 1px solid none;
+box-shadow: 0 4px 8px rgba(0 , 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  background-color: #404656;
+  font-size: 1rem;
+  color: #E0E0E0;
+}
+
+.form-grid input::placeholder,
+.form-grid textarea::placeholder {
+  color: #E0E0E0;
+}
+
+.form-grid textarea {
+  grid-column: span 2;
+  resize: vertical;
+  min-height: 150px;
+}
+
+.submit-btn {
+  grid-column: span 2;
+  padding: 1rem;
+  background-color: #3C4252;
+  color: #E0E0E0;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #4A90E2;
+}

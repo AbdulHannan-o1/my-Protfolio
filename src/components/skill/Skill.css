@@ -1,0 +1,64 @@
+.skillset {
+  background-color: #2C2F3A;
+  padding: 40px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skillsetHead {
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #E0E0E0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.skillset-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px; /* This creates 15px spacing between each box */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.skill-item {
+  width: 159.98px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #6A0DAD;
+  border-radius: 12px;
+  background-color: #1E212D;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(106, 13, 173, 0.5);
+}
+
+.skill-item svg,
+.skill-item span {
+  font-size: 2.5rem;
+  color: #E0E0E0;
+}
+
+.img-icon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+@media (max-width: 576px) {
+  .skill-item {
+    width: 100px;
+    height: 90px;
+  }
+
+  .img-icon {
+    width: 32px;
+    height: 32px;
+  }
+}

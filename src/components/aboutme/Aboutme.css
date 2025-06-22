@@ -1,0 +1,55 @@
+.aboutme {
+    width: 90%;
+    max-width: 1100px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    padding: 40px 50px 70px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 0px rgb(0 0 0 / 40%), -10px -10px 0px rgb(255 114 114 / 80%);
+}
+
+.aboutme-section {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    background-color: #2C2F3A;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.aboutme-image {
+    height: 450px;
+    width: 400px;
+    background-image: url("images/rob-aboutme.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutmeHead {
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+    font-size: 2.5rem; /* Larger heading for emphasis */
+    font-weight: 700; /* Bold weight */
+    color: #E0E0E0; /* Gold color for a standout effect */
+    text-transform: uppercase; /* Uppercase for style */
+    letter-spacing: 2px; /* Slight spacing for elegance */
+}
+
+.aboutme-text {
+    height: auto;
+    width: 40%;
+    margin-left: 40px;
+    text-align: left;
+    color: #E0E0E0;
+    font-family: 'Verdana', sans-serif; /* Readable font */
+    font-size: 1.1rem; /* Comfortable reading size */
+    line-height: 1.6; /* Improved line spacing */
+    font-weight: 400; /* Regular weight */
+}
+
+.aboutme-text strong {
+    color: #FFD700; /* Match heading color for consistency */
+    font-weight: 600; /* Slightly bold for tech skills */
+}

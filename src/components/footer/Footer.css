@@ -1,0 +1,64 @@
+footer {
+    height: 90px;
+    background-color: #1E212B;
+
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.social-media {
+    font-size: 200%;
+    width: auto;
+    margin-left: auto;
+}
+
+.social-media a i{
+    color: white;
+    transition: 0.2s;
+}
+
+.social-media a i:hover {
+    color: #E0E0E0;
+    transition: 0.2;
+}
+
+.copyright {
+    color: white;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icons .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+.icon.github {
+  background-color: #333;
+}
+
+.icon.twitter {
+  background-color: #000;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
