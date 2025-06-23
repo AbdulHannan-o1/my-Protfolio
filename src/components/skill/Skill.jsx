@@ -10,9 +10,9 @@ const logos = [
   { name: "JavaScript", icon: faJs },
 
   // Styling frameworks
-  { name: "Bootstrap", img: "/logo/bootstrap.png" },
-  { name: "Tailwind CSS", img: "/logo/tailwind.png" },
-  { name: "jQuery", img: "/logo/jquery.png" },
+  { name: "Bootstrap", img: "./logo/bootstrap.png" },
+  { name: "Tailwind CSS", img: "./logo/tailwind.png" },
+  { name: "jQuery", img: "./logo/jquery.png" },
 
   // JS Libraries/Frameworks
   { name: "React", icon: faReact },

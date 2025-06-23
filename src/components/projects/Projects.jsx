@@ -9,28 +9,28 @@ export default function Projects() {
             {
               name: 'Westpoint Clone',
               description: 'Cloning Commerce with Clean Code.',
-              image: '/project-img/westpointClone-img.png',
+              image: './project-img/westpointClone-img.png',
               link: 'https://abdulhannan-o1.github.io/westpooint-clone/',
               animation: 'fade-right'
             },
             {
               name: 'Currency Converter',
               description: 'Convert Currencies Instantly. Built with React for Speed and Simplicity.',
-              image: '/project-img/currency-converter.png',
+              image: './project-img/currency-converter.png',
               link: 'https://eco-cdn.co.uk/webdeveloper2.0/content/2-css/bbc.html',
               animation: 'fade-left'
             },
             {
               name: 'Grade Calculator',
               description: 'Type Your Marks. Get Your Grade and Percentage. Instantly.',
-              image: '/project-img/grade.png',
+              image: './project-img/grade.png',
               link: 'https://github.com/AbdulHannan-o1/grade-calculator-',
               animation: 'fade-right'
             },
             {
               name: 'Crypto Insight (API + CSV Exporter)',
               description: 'Fetch. Save. Stay Updated — Your Crypto Assistant in Python."',
-              image: '/project-img/webSraper.png',
+              image: './project-img/web.png',
               link: 'https://github.com/AbdulHannan-o1/web-scraper-',
               animation: 'fade-left'
             }
