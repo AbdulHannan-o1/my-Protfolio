@@ -8,10 +8,7 @@ import Skills from './components/skill/Skill'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './Home';
-import Contact from './Contact';
-import ThankYou from './ThankYou';
+
 
 function App() {
   useEffect(() => {
@@ -23,13 +20,6 @@ function App() {
 
   return (
     <>
-    <Router basename="/your-repo-name"> {/* for GitHub Pages */}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/thankyou" element={<ThankYou />} />
-      </Routes>
-    </Router>
       <Navbar />
       <Hero />
       <AboutMe />
