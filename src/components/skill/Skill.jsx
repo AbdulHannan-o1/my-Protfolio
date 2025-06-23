@@ -22,7 +22,7 @@ const logos = [
   { name: "PHP", icon: faPhp },
   { name: "MySQL", icon: faDatabase },
   { name: "Python", icon: faPython },
-  { name: "Firebase", img: "/logo/firebase.png" },
+  { name: "Firebase", img: "./logo/firebase.png" },
 
 
 ];
