@@ -17,7 +17,7 @@ export default function Projects() {
               name: 'Currency Converter',
               description: 'Convert Currencies Instantly. Built with React for Speed and Simplicity.',
               image: './project-img/currency-converter.png',
-              link: 'https://eco-cdn.co.uk/webdeveloper2.0/content/2-css/bbc.html',
+              link: https://abdulhannan-o1.github.io/currecy-converter--react/',
               animation: 'fade-left'
             },
             {
