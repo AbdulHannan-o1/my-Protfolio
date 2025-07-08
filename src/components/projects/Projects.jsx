@@ -17,22 +17,29 @@ export default function Projects() {
               name: 'Currency Converter',
               description: 'Convert Currencies Instantly. Built with React for Speed and Simplicity.',
               image: './project-img/currency-converter.png',
-              link: 'https://eco-cdn.co.uk/webdeveloper2.0/content/2-css/bbc.html',
+              link: 'https://abdulhannan-o1.github.io/currecy-converter--react/',
               animation: 'fade-left'
+            },
+            {
+              name: 'Weather App',
+              description: 'Get Real-Time Weather Updates. Built with React for Speed and Simplicity.',
+              image: './project-img/weather.png',
+              link: 'https://abdulhannan-o1.github.io/weather-app/',
+              animation: 'fade-right'
             },
             {
               name: 'Grade Calculator',
               description: 'Type Your Marks. Get Your Grade and Percentage. Instantly.',
               image: './project-img/grade.png',
               link: 'https://github.com/AbdulHannan-o1/grade-calculator-',
-              animation: 'fade-right'
+              animation: 'fade-left'
             },
             {
               name: 'Crypto Insight (API + CSV Exporter)',
               description: 'Fetch. Save. Stay Updated — Your Crypto Assistant in Python."',
               image: './project-img/web.png',
               link: 'https://github.com/AbdulHannan-o1/web-scraper-',
-              animation: 'fade-left'
+              animation: 'fade-right'
             }
           ].map((proj, index) => (
             <div
