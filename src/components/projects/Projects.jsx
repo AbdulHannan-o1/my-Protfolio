@@ -7,39 +7,46 @@ export default function Projects() {
         <div className="row justify-content-center mt-4">
           {[
             {
+              name: 'AI Code Reviewer',
+              description: 'AI-Powered Code Review for Quality and Efficiency.',
+              image: './project-img/AICodeReview.png',
+              link: 'https://github.com/AbdulHannan-o1/code-review-form.git',
+              animation: 'fade-right'
+            },
+            {
               name: 'Westpoint Clone',
               description: 'Cloning Commerce with Clean Code.',
               image: './project-img/westpointClone-img.png',
               link: 'https://abdulhannan-o1.github.io/westpooint-clone/',
-              animation: 'fade-right'
+              animation: 'fade-left'
             },
             {
               name: 'Currency Converter',
               description: 'Convert Currencies Instantly. Built with React for Speed and Simplicity.',
               image: './project-img/currency-converter.png',
               link: 'https://abdulhannan-o1.github.io/currecy-converter--react/',
-              animation: 'fade-left'
+              animation: 'fade-right'
             },
             {
               name: 'Weather App',
               description: 'Get Real-Time Weather Updates. Built with React for Speed and Simplicity.',
               image: './project-img/weather.png',
               link: 'https://abdulhannan-o1.github.io/weather-app/',
-              animation: 'fade-right'
+              animation: 'fade-left'
             },
             {
               name: 'Grade Calculator',
               description: 'Type Your Marks. Get Your Grade and Percentage. Instantly.',
               image: './project-img/grade.png',
               link: 'https://github.com/AbdulHannan-o1/grade-calculator-',
-              animation: 'fade-left'
+              animation: 'fade-right'
             },
             {
               name: 'Crypto Insight (API + CSV Exporter)',
               description: 'Fetch. Save. Stay Updated — Your Crypto Assistant in Python."',
               image: './project-img/web.png',
               link: 'https://github.com/AbdulHannan-o1/web-scraper-',
-              animation: 'fade-right'
+              animation: 'fade-left'
             }
           ].map((proj, index) => (
             <div

@@ -24,6 +24,9 @@ const logos = [
   { name: "Python", icon: faPython },
   { name: "Firebase", img: "./logo/firebase.png" },
 
+  // Automation Tools
+  { name: "N8N", img: "./logo/n8n-logo.png"}
+
 
 ];
 

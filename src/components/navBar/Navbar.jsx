@@ -25,6 +25,9 @@ export default function Navbar() {
             <li className="nav-item"><a className="nav-link" href="#contactme">Contact</a></li>
           </ul>
         </div>
+        <div className="download-resume" data-aos="zoom-out-down">
+          <a href="./public/resume.pdf" download="Abdul-hannan-resume.pdf" className="btn btn-outline-light">Download Resume</a>
+        </div>
       </div>
     </nav>
   );
