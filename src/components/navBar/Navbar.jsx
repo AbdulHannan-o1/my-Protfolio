@@ -26,8 +26,11 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="download-resume" data-aos="zoom-out-down">
-          <a href="/resume.pdf" download="Abdul-hannan-resume.pdf" className="btn btn-outline-light">Download Resume</a>
+          <a href={`${import.meta.env.BASE_URL}resume.pdf`} download="Abdul-hannan-resume.pdf" className="btn btn-outline-light">
+            Download Resume
+          </a>
         </div>
+
       </div>
     </nav>
   );
